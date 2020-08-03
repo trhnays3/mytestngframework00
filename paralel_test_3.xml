@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Suite 3" parallel="tests" thread-count="2">
+    <test name="paralel test 3A">
+        <classes>
+            <class name="com.techproed.tests.WebTables"></class>
+        </classes>
+    </test>
+    <test name="paralel test 3B">
+        <classes>
+            <class name="com.techproed.smoketest.FHCLoginNegativeTest"></class>
+        </classes>
+    </test>
+</suite>

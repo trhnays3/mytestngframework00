@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Suite 2" verbose="1">
+    <test name="Login Test Suite">
+        <classes>
+            <class name="com.techproed.smoketest.FHCLoginNegativeTest"></class>
+            <class name="com.techproed.smoketest.FHCLoginPositiveTest"></class>
+            <class name="com.techproed.smoketest.FaceLoginTest"></class>
+        </classes>
+    </test>
+</suite>

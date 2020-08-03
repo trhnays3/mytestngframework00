@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Regression Suite 1" verbose="1">
+    <test name="Proje Regression 1">
+        <packages>
+            <package name=".*"></package>  <!-- Tum packagelarda @Test annotation'i olan her metodu calistirir.  -->
+        </packages>                        <!-- Batch run  -->
+    </test>
+</suite>
